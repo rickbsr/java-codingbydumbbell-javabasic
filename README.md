@@ -1,5 +1,5 @@
 # java-codingbydumbbell-javabasic
-Java Basic
+LeetCode 刷題系列
 
 簡介：
 
