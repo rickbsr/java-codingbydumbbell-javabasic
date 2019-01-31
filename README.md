@@ -1,8 +1,9 @@
 # java-codingbydumbbell-javabasic
 LeetCode 刷題系列
 
-簡介：
+<br />
+***
 
-這個專案放置的內容主要是我個人部落格中的『Java Basic』系列文章的程式範例。
+此為本人部落格教學文章『Java Basic』之範例：[部落格導覽](https://codingbydumbbell.blogspot.com/2019/01/blog-post.html)
 
-My Blog, CODINGBYDUMBBELL：https://codingbydumbbell.blogspot.com/
+My Blog：[CODINGBYDUMBBELL](https://codingbydumbbell.blogspot.com/)
