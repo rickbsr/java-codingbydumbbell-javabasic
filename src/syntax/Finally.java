@@ -3,9 +3,10 @@ package syntax;
 public class Finally {
 
     public static void main(String[] args) {
-        tryByReturn();
-        tryByException();
-        tryByExit();
+//        tryByReturn();
+//        tryByException();
+//        tryByExit();
+        System.out.println(tryByReturn2());
     }
 
     private static void tryByReturn() {
@@ -39,4 +40,15 @@ public class Finally {
             System.out.println("C");
         }
     }
+
+private static int tryByReturn2() {
+    int i = 0;
+    try {
+        // code...
+        i++;
+        return i++;
+    } finally {
+        return i;
+    }
+}
 }
