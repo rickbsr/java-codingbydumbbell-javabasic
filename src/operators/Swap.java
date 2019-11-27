@@ -6,26 +6,26 @@ public class Swap {
 
         int a = 1, b = 2;
 
-        // by 額外空間
+        // by 「額外空間法」
         int temp = a;
         a = b;
         b = temp;
 
-        // by 加減
+        // by 「四則運算法」之「加減法」
         a = a + b;
         b = a - b;
         a = a - b;
         // 一行寫法
         a = a + b - (b = a);
 
-        // by 乘除
+        // by 「四則運算法」之「乘除法」
         a = a * b;
         b = a / b;
         a = a / b;
         // 一行寫法
         a = a * b / (b = a);
 
-        // by XOR
+        // by 「XOR 運算法」
         a = a ^ b;
         b = a ^ b;
         a = a ^ b;
